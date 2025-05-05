@@ -62,14 +62,14 @@ let newarr=arr.map((val)=>{
 });
 console.log(newarr); */
 
-//filter method in array 
+//filter method in array
 /* let arr=[1,2,3,4,5,6,7,8,9,10];
 let newarr=arr.filter((val)=>{
     return val%2==0;
 });
 console.log(newarr); */
 
-//reduce method in array 
+//reduce method in array
 /* let arr=[1,2,3,4,5];
 let output=arr.reduce((preval,currval)=>{
     return preval+currval;
@@ -94,7 +94,6 @@ let facorial=arr.reduce((perval,currval)=>{
 });
 console.log(`factorial of 1 to ${n} is : ${facorial}`); */
 
-
 //DOM manipulation
 /* let div=document.querySelector("div");
 let val=div.getAttribute("id");
@@ -115,7 +114,7 @@ div.style.height="100px";
 div.innerText=" this conatin the data  ";
 div.style.textAlign="center"; 
  */
-//create the element using js 
+//create the element using js
 /* let newbtn=document.createElement("button");
  newbtn.innerText="click me";
  newbtn.style.backgroundColor="aqua";
@@ -124,4 +123,3 @@ div.style.textAlign="center";
  //document.querySelector("div").prepend(newbtn);
  //document.querySelector("div").before(newbtn);
  //document.querySelector("div").after(newbtn); */
-
